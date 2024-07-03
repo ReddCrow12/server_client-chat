@@ -51,7 +51,7 @@ def send_message():
     broadcast_message(message, None)
 
 
-host = '10.100.102.15'
+host = 'IP' #change the IP to the server's IP.
 port = 1234
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
