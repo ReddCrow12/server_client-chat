@@ -25,7 +25,7 @@ def send_message():
     client_socket.send(message.encode('utf-8'))
 
 
-host = '10.100.102.15' 
+host = 'IP' #change to the server's IP. 
 port = 1234
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((host, port))
